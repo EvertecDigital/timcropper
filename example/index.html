@@ -1,0 +1,60 @@
+<html>
+
+<head>
+  <title>TimCropper - Dynamic Image Resizer and Cache Manager</title>
+</head>
+
+<body>
+  <style>
+    *,
+    *:after,
+    *:before {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+    }
+
+    body {
+      padding: 0 30px 30px 30px;
+      background-color: #222;
+      color: #f7f7f7;
+    }
+
+    img {
+      display: inline-block;
+      max-width: 100%;
+    }
+
+    h2 {
+      margin: 40px 0 20px 0;
+    }
+  </style>
+
+
+  <h1>TimCropper - Dynamic Image Resizer and Cache Manager</h1>
+
+  <h2>Image 58 x 58</h2>
+  <p><img src="timcropper.php?src=image/beach.png&w=58&h=58" title="TimCropper" /></p>
+
+  <h2>Image 300 x 200</h2>
+  <p><img src="timcropper.php?src=image/beach.png&w=300&h=200" title="TimCropper" /></p>
+
+  <h2>Image 1000 x 300</h2>
+  <p><img src="timcropper.php?src=image/beach.png&w=1000&h=300" title="TimCropper" /></p>
+
+  <h2>Image 2000 x 500</h2>
+  <p><img src="timcropper.php?src=image/beach.png&w=2000&h=500" title="TimCropper" /></p>
+
+  <h2>Image 300 x 1000</h2>
+  <p><img src="timcropper.php?src=image/beach.png&w=300&h=1000" title="TimCropper" /></p>
+
+  <h2>Image 800 x auto</h2>
+  <p><img src="timcropper.php?src=image/beach.png&w=800" title="TimCropper" /></p>
+
+  <h2>Original Image</h2>
+  <p><img src="image/beach.png" title="TimCropper" /></p>
+</body>
+
+</html>
